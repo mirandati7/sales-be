@@ -1,0 +1,1 @@
+ALTER TABLE product ADD sku VARCHAR(30);
