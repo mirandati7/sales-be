@@ -28,6 +28,9 @@ public class Product {
     @Column(name = "created")
     private LocalDate created;
 
+    public Product() {
+    }
+
     public LocalDate getCreated() {
         return created;
     }
